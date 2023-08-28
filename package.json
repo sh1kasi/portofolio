@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 3000\" \"open http://localhost:3000/build\""
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "jquery": "^3.7.0",
+    "nodemon": "^3.0.1"
+  },
+  "name": "latihan-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

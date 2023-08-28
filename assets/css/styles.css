@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body {
+    background-color: black;
+    max-width: 100%;
+    /* scroll-behavior: smooth; */
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black;
+}
+
+    #name {
+    font-size: 40px;
+    margin-top: 4rem;
+}
+
+.hero-2 {
+    margin-top: 400px;
+    font-size: 80px;
+}
+
+.hero-3 {
+    margin-top: 180px;
+}
+
+.image-hero-1 {
+    transform: rotate(2deg);
+    animation: float 2s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+        
+		transform: translatey(0px);
+
+	}
+	50% {
+		transform: translatey(-20px);
+
+	}
+	100% {
+		transform: translatey(0px);
+
+	}
+}
